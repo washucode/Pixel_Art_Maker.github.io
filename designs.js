@@ -32,7 +32,7 @@ function makeGrid(l,m) {
             $(this).removeAttr('style') : $(this).attr('style','background:'+colorPicker);
     });
 
-    $('button').click(function(){
+    $('.button').click(function(){
         $('td').removeAttr('style');
     });
     
