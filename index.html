@@ -27,7 +27,11 @@
     <h2>Pick A Color</h2>
     <input type="color" id="colorPicker"><br>
     
-    <button class="button">Empty Grid</button>
+    <button class="button">Empty Grid</button><br>
+
+    <button class="button1">Reload</button><br>
+    <button class="button2">Help</button><br>
+
     </div>
     <div id = "design">
 
@@ -36,6 +40,24 @@
 
     <table id="pixelCanvas"></table>
     </div>
+
+    <!--Modal-->
+   <div id="help" class="modal">
+
+    <!-- Content in modal -->
+    <div class="content">
+      <span class="close">&times;</span>
+      <h2>How to use Pixel Art:</h2>
+      
+    <p>To create grid enter gird height and grid width and press the submit button.</p>
+    <p>To clear art on grid press the Empty Grid button</p>
+    <p>To clear grid press the reload button</p>
+    <p>To color select color the click once on a cell.When you click the cell again, the color is cleared</p>
+      
+    </div>
+  
+  </div>
+  
     
     
     <script src="designs.js"></script>
